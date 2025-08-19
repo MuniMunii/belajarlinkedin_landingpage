@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme{
+  --font-Archivo:"Archivo Black", sans-serif;
+  --font-Roboto:"Roboto", sans-serif
+}
+#root,body {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
