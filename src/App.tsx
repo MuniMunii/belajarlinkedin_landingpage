@@ -20,7 +20,7 @@ function App() {
     return () => cancelFrame(update)
   },[])
   return (
-    <ReactLenis root options={{autoRaf:false}} ref={lenisRef}>
+    <ReactLenis root options={{autoRaf:false,smoothWheel:true,duration: 1.3}} ref={lenisRef}>
       <Header/>
       <HeroSections/>
       <FeaturesSections/>
