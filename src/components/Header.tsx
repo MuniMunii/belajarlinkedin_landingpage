@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 import LogoBelajar from "../assets/logo1.png";
 type IsActiveNav = "" | "classes" | "about" | "contact";
 export default function Navbar() {
-  const [changeBGWhenInTop, setChangeBGWhenInTop] = useState(true);
+  const [changeBGWhenInTop, setChangeBGWhenInTop] = useState(false);
   const [isActive, setIsActive] = useState<IsActiveNav>("");
   const { scrollY } = useScroll();
   const navbarRef = useRef(0);
