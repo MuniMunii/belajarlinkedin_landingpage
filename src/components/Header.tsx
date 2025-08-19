@@ -64,7 +64,7 @@ export default function Navbar() {
           }`}
           to={"/"}
         >
-          Beranda
+          Home
         </Link>
         <Link
           className={`text-black ${
