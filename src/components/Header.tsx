@@ -12,7 +12,7 @@ export default function Navbar() {
   const navbarRef = useRef(0);
   const location = useLocation();
   useMotionValueEvent(scrollY, "change", (latest) => {
-    if (latest <= 0) {
+    if (latest <= 30) {
       setChangeBGWhenInTop(false);
     } else {
       setChangeBGWhenInTop(true);
